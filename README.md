@@ -59,6 +59,13 @@ Here is one video show the PID drive the car on the whole track.
 
 [![PID driving Video](https://img.youtube.com/vi/IN6Oo_bYUoY/0.jpg)](https://www.youtube.com/watch?v=IN6Oo_bYUoY)
 
+**Warn:** From the video, we can see in some curve road, the car oscillations little, although it does not drive off the track, this algorithms still need lot to improve. So this algorithms is NOT safe for real driving.
+
+## Improvements
+
+ 1. As show in the video, there is still little oscillations during the driving, especially in the curve road
+ 2. The twiddle algorithm is not included in this implementation, so far only can reach speed at about 40-45 mph.
+
 ## Dependencies
 
 * cmake >= 3.5
